@@ -121,9 +121,13 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\ReferenceController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\AudioBook.cs" />
+    <Compile Include="Models\Book.cs" />
+    <Compile Include="Models\Reference.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -167,10 +171,11 @@
     <Content Include="Views\Home\Parts\_Inner.cshtml" />
     <Content Include="Views\Home\Mission.cshtml" />
     <Content Include="Views\Home\Parts\_Outer.cshtml" />
+    <Content Include="Views\Reference\Index.cshtml" />
+    <Content Include="Views\Reference\Details.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
