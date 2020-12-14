@@ -2,6 +2,8 @@
 
 <h1>Index for Reference</h1>
 
+@Html.ActionLink("Create New", "Create")
+
 @foreach (DumpDemo.Models.Reference reffer in Model) {
-    <p>The Item is : @reffer.Title</p>
+    <p>The Item is : @reffer.Title @Html.ActionLink("Show Details", "Details", new { id = reffer.ID })</p>
 }

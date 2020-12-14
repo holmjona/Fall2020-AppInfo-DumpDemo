@@ -127,6 +127,7 @@
     </Compile>
     <Compile Include="Models\AudioBook.cs" />
     <Compile Include="Models\Book.cs" />
+    <Compile Include="Models\DAL.cs" />
     <Compile Include="Models\Reference.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -173,6 +174,7 @@
     <Content Include="Views\Home\Parts\_Outer.cshtml" />
     <Content Include="Views\Reference\Index.cshtml" />
     <Content Include="Views\Reference\Details.cshtml" />
+    <Content Include="Views\Reference\Create.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

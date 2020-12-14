@@ -7,6 +7,7 @@ using System.Windows;
 
 namespace DumpDemo.Models {
     public class Reference {
+        private int _ID = 0;
         private string _Title = "I have none";
         private int _Year = 0;
         //private int _Age = 0;
@@ -30,6 +31,13 @@ namespace DumpDemo.Models {
         public Reference(string pub, int year = 0) {
             Publisher = pub;
         }
+
+        
+        public int ID {
+            get { return _ID; }
+            set { _ID = value; }
+        }
+
 
         public string Title {
             get {
